@@ -1,11 +1,11 @@
 {
-  "name": "babel-plugin-transform-classname-bem",
+  "name": "babel-plugin-transform-classname-and",
   "version": "0.0.1",
   "description": "transform & in jsx element's className",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dingziqi/babel-plugin-transform-classname-bem"
+    "url": "https://github.com/dingziqi/babel-plugin-transform-classname-and"
   },
   "scripts": {
     "test": "jest"
