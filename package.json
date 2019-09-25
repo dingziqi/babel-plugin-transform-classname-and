@@ -1,0 +1,22 @@
+{
+  "name": "babel-plugin-transform-classname-bem",
+  "version": "0.0.1",
+  "description": "transform & in jsx element's className",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dingziqi/babel-plugin-transform-classname-bem"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "dingziqi <dingziqi_xtu@sina.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-types": "^6.26.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "jest": "^24.9.0"
+  }
+}
