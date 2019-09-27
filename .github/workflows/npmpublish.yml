@@ -17,8 +17,8 @@ jobs:
         with:
           node-version: 12
       - run: |
-        npm i
-        npm test
+          npm i
+          npm test
 
   publish-npm:
     needs: build
