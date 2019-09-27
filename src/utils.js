@@ -10,7 +10,7 @@ function isContainAnd(classNameAttr) {
 
 function getClassNameAttr(path) {
   const attrs = path.node.openingElement.attributes;
-  const className = attrs.find(attr => attr.name.name === 'className');
+  const className = attrs.find(attr => attr.name && attr.name.name === 'className');
   return className;
 }
 
