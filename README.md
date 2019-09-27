@@ -1,3 +1,6 @@
+[![npm version](https://badge.fury.io/js/babel-plugin-transform-classname-and.svg)](https://badge.fury.io/js/babel-plugin-transform-classname-and)
+[![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest) [![jest](https://jestjs.io/img/jest-badge.svg)](https://github.com/facebook/jest)
+
 # babel-plugin-transform-classname-and
 
 一个用于转换 JSX 元素 className 属性的 & 符的 babel 插件。& 的规则类似预编译样式语言（如，Less）中的一致。
@@ -33,3 +36,4 @@
 # todo
 - [x] 支持取父元素中第 n 个类名
 - [ ] 支持 classname 中的类名替换
+- [ ] 更好的错误提示
