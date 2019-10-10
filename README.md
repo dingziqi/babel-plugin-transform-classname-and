@@ -32,8 +32,3 @@
   <div className="b-c"></div>
 </div>
 ```
-
-# todo
-- [x] 支持取父元素中第 n 个类名
-- [ ] 支持 classname 中的类名替换
-- [ ] 更好的错误提示

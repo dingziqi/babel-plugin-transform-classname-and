@@ -24,7 +24,11 @@ function getPrefixesClassName(currentPath) {
       return finder(path.parentPath);
     }
 
-    prefixes = classNameAttr.value.value.split(' ');
+    if(babelTypes.isStringLiteral(classNameAttr.value)) {
+      prefixes = classNameAttr.value.value.split(' ');
+    } else if (classNameAttr.value !== undefined) {
+      throw Error('babel-plugin-transform-classname-and only support string literal for parent className');
+    }
   };
 
   finder(currentPath.parentPath);
