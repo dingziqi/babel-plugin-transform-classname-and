@@ -28,7 +28,7 @@
 ```
 
 ```jsx
-<div className="a">
+<div className="a b">
   <div className="b-c"></div>
 </div>
 ```
